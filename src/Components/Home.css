@@ -1,0 +1,36 @@
+.bgc {
+  padding: 100px 20px 20px;
+  background: linear-gradient(to bottom, #8029ba, #3097b3);
+  min-height: 100vh;
+}
+
+.Sliding {
+  overflow: hidden;
+  /* Ensures text is hidden outside the container */
+  width: 100vw;
+  /* Make sure the container spans the full width of the screen */
+  position: relative;
+  /* This helps position the text correctly */
+}
+
+.heading {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Orbitron', sans-serif;
+  /* Optional: Use the Orbitron font */
+  font-size: 1rem;
+  animation: slide-left-right 7s linear infinite;
+  /* Animation properties */
+}
+
+@keyframes slide-left-right {
+  0% {
+    transform: translateX(-100%);
+    /* Start off-screen to the left */
+  }
+
+  100% {
+    transform: translateX(100vw);
+    /* End completely off-screen to the right */
+  }
+}

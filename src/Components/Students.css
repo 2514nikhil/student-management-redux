@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.student-container {
+    padding: 100px 20px 20px;
+    background: linear-gradient(to bottom, #8029ba, #3097b3);
+    min-height: 100vh;
+
+}
+
+.h1 {
+    font-size: 20px;
+    font: bold;
+}
+
+/* Button Styling */
+.add-btn {
+    display: inline-block;
+    background: rgb(122, 206, 242);
+    border: 3px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 10px 10px;
+
+}
+
+
+.btn-container-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 0px 10px rgb(0, 0, 0);
+    border-radius: 20px;
+
+    th,
+    td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #000000;
+        color: white;
+    }
+
+    td a {
+        color: blue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    td a:hover {
+        text-decoration: wavy;
+    }
+}
