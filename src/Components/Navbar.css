@@ -7,11 +7,10 @@
 }
 
 nav {
-  background-color: #333;
-  color: #fff;
+  background-color: #1c2536;
+  color: #ffffff;
   padding: 10px 20px;
   position: sticky;
-  margin-bottom: 45px;
 }
 
 nav a:hover {
@@ -38,7 +37,7 @@ nav a {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 nav a.active {

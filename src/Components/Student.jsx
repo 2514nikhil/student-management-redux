@@ -21,7 +21,7 @@ function Student() {
         <>
           <div className="btn-container-heading">
             <h1> Student Info</h1>
-            <h3>Student Management System</h3>
+            <h2>Student Management System</h2>
             <button className="add-btn" onClick={() => dispatch(addStudent())}>
               Add New Student
             </button>
@@ -45,12 +45,15 @@ function Student() {
                   <td>{student.batch}</td>
                   <td>
                     {" "}
-                    <button onClick={() => dispatch(editStudent(student))}>
+                    <div className="action-button">
+
+                    <button className="edit-button" onClick={() => dispatch(editStudent(student))}>
                       Edit
                     </button>
-                    <button onClick={() => dispatch(deleteStudent(student.id))}>
+                    <button className="delete-button" onClick={() => dispatch(deleteStudent(student.id))}>
                       Delete
                     </button>
+                    </div>
                   </td>
                 </tr>
               ))}
